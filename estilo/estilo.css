@@ -1,0 +1,129 @@
+* {Margin: 3px;
+  padding: 3px}
+
+/*inicio body*/
+body 
+{font-family: 'Monserrat', sans-serif;
+background-image: linear-gradient(to right, #de9ccd, #fa9fba, #ffa8a4, #ffb790, #ffcb85, #ffcb88, #ffca8a, #ffca8d, #ffb8a0, #ffadb8, #e5aacd, #c1abd6);}
+/*fin body*/
+
+
+/*inicio flex container*/
+.flex-container
+{display:flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: 2px;
+padding: 2px;}
+
+.fondo-h1
+{background-image: url("https://i.pinimg.com/originals/c6/5a/03/c65a034c0d5671c97c12acdd0c9d3315.jpg");}
+
+.flex-containerreseñas
+{display:flex;
+flex-wrap: wrap;
+align-items: flex-start;
+margin: 2px;
+padding: 2px;
+width: 100%;}
+
+.flex-boxaside
+{width: 15%;
+margin: 2px;
+padding: 2px;
+border: solid black 1px}
+
+.flex-boxsection
+{width: 84%;
+margin: 2px;
+padding: 2px;}
+
+
+
+/*fin flex container*/
+
+
+/*inicio header*/
+header 
+{border: 2.5px solid;
+border-color: rgb(201, 52, 52) rgb(48, 155, 48) rgb(218, 218, 84) violet;
+background:linear-gradient(to right, #CC7956, #E6B794, #FFFFFF);}
+
+header h1
+{font-size: 55px;
+font-family: 'Satisfy', cursive; }
+
+ nav ul li 
+{display: inline-block;
+font-size: 24px;
+font-weight: bolder;
+margin: 3px;
+padding: 3px;
+font-family: 'Montserrat', sans-serif;}
+
+nav ul li a:hover
+{color: grey;
+font-size: 25px;
+text-decoration: none;}
+
+nav ul li a 
+{text-decoration: none;
+color: black}
+/*fin header*/
+
+
+/*inicio aside*/
+aside 
+{background-image: url("https://th.bing.com/th/id/OIP.e7c4ADC-7474Hnx88BL81wHaE8?pid=ImgDet&rs=1");}
+/*fin aside*/
+
+
+/*inicio section*/
+section
+{background-color: rgba(230, 186, 148, 0.6);;
+border: 2.5px solid;
+border-color:  rgb(48, 155, 48) rgb(218, 218, 84)rgb(201, 52, 52) violet;
+text-align: center;
+align-items: center;}
+
+
+section h1 
+{font-size: 22px;
+text-decoration: underline;
+font-weight: bolder;}
+
+.h1-reseñas
+{text-align: left;}
+
+section h2
+{font-size: 20px;
+text-decoration: underline;
+font-weight: bold;}
+
+.h2-reseñas
+{text-align: left;}
+
+section p
+{font-size: 16px;
+line-height: 1.5;
+font-weight: bold;
+text-align: justify}
+
+section img
+{border: 2px solid black;}
+section img:hover 
+{width:400px;
+height:300px}
+
+.cuestionario
+
+/*fin section*/
+
+
+/*inicio footer*/
+footer
+{border: 2.5px solid black; 
+background: linear-gradient(to right, #CC7956, #E6B794, #FFFFFF);
+margin: 5px;
+padding: 5px;}
+/*fin footer*/
